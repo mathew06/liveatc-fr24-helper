@@ -54,3 +54,8 @@ LiveATC.net Terms of Service also restrict automated access. This extension only
 All logos are trademarks of their respective owners.
 
 ---
+
+## 📄 License
+[MIT](https://github.com/mathew06/liveatc-fr24-helper/blob/main/LICENSE) License
+
+---
