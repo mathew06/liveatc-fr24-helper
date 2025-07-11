@@ -20,7 +20,7 @@ A lightweight Chrome extension that helps aviation enthusiasts quickly switch be
 1. Clone this repository:
    ```bash
    git clone https://github.com/mathew06/liveatc-fr24-helper.git
-   cd atc-fr24-helper/src
+   cd liveatc-fr24-helper/src
 2. Load the extension in Chrome:
 
     - Open `chrome://extensions/` in your browser
