@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "LiveATC-FR24 Helper",
+    "version": "1.0",
+    "description": "Link LiveATC and FlightRadar24 with ease",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "assets/plane-icon.png",
+            "48": "assets/plane-icon.png",
+            "128": "assets/plane-icon.png"
+        }
+    },
+    "icons": {
+        "48": "assets/plane-icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.liveatc.net/*",
+        "https://*.flightradar24.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.liveatc.net/search*"
+            ],
+            "js": [
+                "content-liveatc.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
