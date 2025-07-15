@@ -32,5 +32,16 @@
             ],
             "run_at": "document_idle"
         }
-    ]
+    ],
+    "commands": {
+        "toggle": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F"
+            },
+            "description": "Toggle between FR24 and LiveATC"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
 }

@@ -2,6 +2,7 @@ const tabStatus = document.getElementById("tabStatus");
 const actionBtn = document.getElementById("actionBtn");
 const favBtn = document.getElementById("favBtn");
 const favList = document.getElementById("favList");
+actionBtn.title = "Ctrl+Shift+F";
 favBtn.title = "Toggle as favorite airport"
 
 let currentAirport = null;

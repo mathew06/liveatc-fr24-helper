@@ -10,6 +10,7 @@ A lightweight Chrome extension that helps aviation enthusiasts quickly switch be
 - Detects if you're on a supported FR24 or LiveATC airport/search page
 - Lets you open the corresponding page on the other site
 - Favorite any airport for quick access
+- Keyboard shortcut for easy switching
 - Clean, minimal UI designed for speed and convenience
 - Fully local – no backend, no data collection
 
